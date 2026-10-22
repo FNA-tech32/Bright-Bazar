@@ -1,0 +1,28 @@
+{
+  "name": "enterprise-commerce",
+  "version": "link",
+  "private": true,
+  "scripts": {
+    "dev": "node init && npm run dev --prefix starters/shopify-algolia",
+    "start": "node init && npm run start --prefix starters/shopify-algolia",
+    "build": "node init && npm run build --prefix starters/shopify-algolia",
+    "install:store": "npm install --legacy-peer-deps --prefix starters/shopify-algolia"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^20.5.0",
+    "@commitlint/config-conventional": "^20.5.0",
+    "husky": "^9.0.11"
+  },
+  "resolutions": {
+    "braces": ">=3.0.3",
+    "cross-spawn": ">=7.0.5",
+    "micromatch": ">=4.0.8",
+    "lodash": ">=4.17.23",
+    "lodash-es": ">=4.17.23",
+    "js-yaml": ">=4.1.1",
+    "ajv": ">=8.18.0"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}
